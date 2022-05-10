@@ -27,7 +27,7 @@
         "psr/http-client-implementation": "1.0"
     },
     "replace": {
-        "php-http/socket-client": "*"
+        "php-http/socket-client": "2.1.0"
     },
     "autoload": {
         "psr-4": {
