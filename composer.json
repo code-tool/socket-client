@@ -1,5 +1,5 @@
 {
-    "name": "php-http/socket-client",
+    "name": "code-tool/socket-client",
     "description": "Socket client for PHP-HTTP",
     "license": "MIT",
     "authors": [
@@ -25,6 +25,9 @@
     "provide": {
         "php-http/client-implementation": "1.0",
         "psr/http-client-implementation": "1.0"
+    },
+    "replace": {
+        "php-http/socket-client": "*"
     },
     "autoload": {
         "psr-4": {
